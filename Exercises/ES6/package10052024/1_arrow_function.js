@@ -6,17 +6,17 @@ function Add(a, b) {
 //su dung arrow function
 let Add1 = (a, b) => a + b;
 
-let Add2 = (a,b) => {
-    if(a<=0 || b<= 0){
+let Add2 = (a, b) => {
+    if (a <= 0 || b <= 0) {
         console.log("a, b must be greater than zero");
-    }else {
-        return a+b;
+    } else {
+        return a + b;
     }
 }
 
 let showName = () => {
     let name = "Tuong Xuan Luong";
-    console.log("Name is: "+name);
+    console.log("Name is: " + name);
 }
 
 console.log("Add = " + Add(10, 20));
@@ -29,9 +29,11 @@ let getAge = age => console.log("Age is: " + age);
 
 //Arrow function within Object literal
 let person = {
-    fName : "Tho",
-    lName : "Pham Ngoc",
-    fullName : function (){console.log(`Full name is:${this.fName} ${this.lName}`)}
+    fName: "Tho",
+    lName: "Pham Ngoc",
+    fullName: function () {
+        console.log(`Full name is:${this.fName} ${this.lName}`)
+    }
 };
 
 getAge(25);
