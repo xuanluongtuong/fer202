@@ -15,3 +15,16 @@ console.log(`Info: ${fName} ${lName} - ${age}`);
 const[c1, c2, ...c3] = course;
 console.log(`List of courses: ${c1}, ${c2}, ${c3}`)
 
+// Đối tượng
+const person = {
+    name: 'John Doe',
+    age: 30,
+    city: 'New York'
+};
+
+// Destructuring
+const { name, age, city } = person;
+
+console.log(name); // 'John Doe'
+console.log(age); // 30
+console.log(city); // 'New York'

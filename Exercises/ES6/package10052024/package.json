@@ -1,0 +1,12 @@
+{
+  "name": "package10052024",
+  "version": "1.0.0",
+  "description": "",
+  "main": "1_arrow_function.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

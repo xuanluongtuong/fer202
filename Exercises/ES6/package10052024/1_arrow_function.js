@@ -38,3 +38,4 @@ let person = {
 
 getAge(25);
 person.fullName()
+
